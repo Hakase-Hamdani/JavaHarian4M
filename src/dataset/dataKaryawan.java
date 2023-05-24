@@ -18,7 +18,30 @@ public class dataKaryawan {
     private ArrayList<Integer> jumAnak;
     private ArrayList<Integer> masaKerja;
     
-    public dataKaryawan(){}; //konstruktor
+    public dataKaryawan(){
+        nip = new ArrayList<String>();
+        nama = new ArrayList<String>();
+        golongan= new ArrayList<String>();
+        status = new ArrayList<String>();
+        jumAnak = new ArrayList<Integer>();
+        masaKerja = new ArrayList<Integer>();
+    }; //konstruktor
+    
+    public void insertNip(String isi){
+        this.nip.add(isi);
+    }
+    
+    public ArrayList<String> getRecordNip(){
+        return this.nip;
+    }
+    
+    public void insertMasaKerja(int isi){
+        this.masaKerja.add(isi);
+    }
+    
+    public ArrayList<Integer> getRecordMasaKerja(){
+        return this.masaKerja;
+    }
     
     
 }
