@@ -4,6 +4,7 @@
  */
 package salary4m;
 import penggajian.*;
+import java.util.ArrayList;
 
 /**
  *
@@ -34,8 +35,20 @@ public class Salary4M {
         
         System.out.println(nama3.length);
         System.out.println(tahun[4]);
-        //
         
+        ArrayList <Integer> umur = new ArrayList <Integer>();
+        umur.add(30);
+        umur.add(40);
+        umur.add(20);
+        umur.add(10);
+        System.out.println(String.valueOf(umur.size()));
+        System.out.println(umur.get(3));
+        
+        ArrayList <String> kota = new ArrayList <String>();
+        kota.add("Banjarmasin");
+        kota.add("Banjarbaru");
+        kota.add("Gambut");
+        System.out.println(kota);
         // TODO code application logic here
         //karyawan myobj = new karyawan();
         //myobj.setGolongan("Golongan 3");
