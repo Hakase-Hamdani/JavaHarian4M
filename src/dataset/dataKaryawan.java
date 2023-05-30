@@ -35,6 +35,48 @@ public class dataKaryawan {
         return this.nip;
     }
     
+    // 
+    
+    public void insertNama(String isi){
+        this.nama.add(isi);
+    }
+    
+    public ArrayList<String> getRecordNama(){
+        return this.nama;
+    }
+    
+    //
+    
+    public void insertGolongan(String isi){
+        this.golongan.add(isi);
+    }
+    
+    public ArrayList<String> getRecordGolongan(){
+        return this.golongan;
+    }
+    
+    //
+    
+    public void insertStatus(String isi){
+        this.status.add(isi);
+    }
+    
+    public ArrayList<String> getRecordStatus(){
+        return this.status;
+    }
+    
+    //
+    
+    public void insertJumAnak(int isi){
+        this.jumAnak.add(isi);
+    }
+    
+    public ArrayList<Integer> getRecordJumAnak(){
+        return this.jumAnak;
+    }
+    
+    //
+    
     public void insertMasaKerja(int isi){
         this.masaKerja.add(isi);
     }
