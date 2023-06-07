@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package salary4m;
+import forms.frameUtama;
 import penggajian.*;
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ public class Salary4M {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String [] nama1 = {"A", "B"};
+        /*String [] nama1 = {"A", "B"};
         String nama2 [] = {"C", "D"};
         String nama3 [] = new String[5];
         
@@ -56,7 +57,12 @@ public class Salary4M {
         //myobj.setStatus("Menikah");
         //myobj.setTunjAnak(2);
         
-        //System.out.println("Gaji Total "+ myobj.GajiTotal("Golongan 1", "Menikah", 3, 2));
+        //System.out.println("Gaji Total "+ myobj.GajiTotal("Golongan 1", "Menikah", 3, 2));*/
+        
+        frameUtama myFrame = new frameUtama(); //membuat objek myFrame
+        
+        myFrame.setVisible(true);
+        
      
     }
     
